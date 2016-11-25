@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/content_image"/>
+
+    <TextView
+        android:id="@+id/content_title"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zz"
+        android:layout_toRightOf="@id/content_image"/>
+
+    <LinearLayout
+        android:layout_below="@id/content_title"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/content_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/content_xing"
+            android:layout_marginTop="5dp"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+
+            />
+        <TextView
+            android:text="zz"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_fen"/>
+
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="3dp"
+            android:src="@mipmap/black_share_icon"/>
+        <TextView
+            android:text="zz"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_count"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

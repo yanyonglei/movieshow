@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    >
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height= "match_parent"
+        android:layout_centerInParent="true"
+        android:id="@+id/videoView"/>
+
+    <com.zz.movieshow.widget.VerticalSeekBar
+        android:clickable="false"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/seekBar_light_id"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
